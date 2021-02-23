@@ -7,9 +7,9 @@
     <body>
         <div class="topnav">            
             <a class="active" href="#home">home</a>
-            <a href="portfolio">portfolio</a>
-            <a href="skills">skills</a>
-            <a href="contacts">contacts</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#skills">skills</a>
+            <a href="#contact-form">contact me</a>
         </div>
         <div class="container">
             <img src="images/slide-1.jpg" alt="Snow" style="width:100%;">
@@ -22,13 +22,85 @@
         <!--my portfolio-->
 
         <div id="portfolio">
-            <div class="container">
-            <h1 style="color: rgb(255, 255, 255);"><center>MY PORTFOLIO</center></h1>
-                <div class="portfolionav">
-                    <a class="active" href="#">logo</a>
+            <div class="container2">
+                <div class="container2" style="background-color: #000000;">
+                            <h1 style="color: rgb(255, 255, 255);"><center>PORTFOLIO</center></h1>
+                            <h2 style="color: rgb(255, 255, 255);"><center>LOGO</center></h2>
+                            <div class="portfolionav">
+                            <img src="images/logo.jpg" width="400" height=400" alt="Image1" class="left" />
+                            <img src="images/IMG-20210128-WA0001.jpg" width="400" height="400" alt="Image3" class="right" />
+                            <img src="images/bobo.jpg" width="400" height="400" alt="Image2" />
+                        </div>
                 </div>
             </div>
-
         </div>
+
+          <!--my skills--> 
+
+        <div id="skills">
+            <div class="image1">
+
+                <!-- <div class="imgWrapper" style="background-image: url(images/bg-1.jpg);"> -->
+                    <div class="skills" style="background-color: #000000;" >
+                        <div class="styleskills">
+                                <h1 style="color: rgb(255, 255, 255);"><center>SKILLS</center></h1>
+                        </div>  
+                    <div class="p">
+                         <ul>
+                                <li>GRAPHIC DESIGN</li>
+                                <P>Photoshop</P>
+                                <p>Illustrator</p>
+                                <li>ART</li>
+                                <li>WEAVING</li>
+                         </ul>
+                
+                    </div>
+                    <div class="keem">
+                         <img src="images/IMG-20210202-WA0004.jpg" alt="image5" style="width:250px; border-radius:50% ;"/>
+
+                    </div>
+                </div>
+          
+                 
+            </div>
+        </div>
+
+        <!-- my contacts -->
+
+        <section>
+            <div id="contact-form">
+                <!-- <h3>Contact Form</h3> -->
+
+                    <div class="container">
+                        <h3>Contact Me</h3>
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                        <option value="Kenya">Kenya</option>
+                        <option value="Nairobi">Nairobi</option>
+                    
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                    </div>
+            </div>
+        </section>
+          <!-- <my footer> -->
+              <div class="footer">
+                  <p>Created by- Kimani Erastus</p>
+                  <p> Mail- Keemerastus6@gmail.com </p>
+                  
+              </div>
+
     </body>
 </html>
